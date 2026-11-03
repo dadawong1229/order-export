@@ -1,0 +1,14 @@
+{
+  "name": "order-export",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Order export service with payment channel filtering",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
